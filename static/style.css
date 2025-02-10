@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Container for the page */
+  .container {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  h1 {
+    font-size: 3em;
+    color: #1d3557;
+    margin-bottom: 30px;
+  }
+  
+  /* Stats section styling */
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Individual stat box */
+  .stat {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: left;
+  }
+  
+  /* Stat heading */
+  .stat h2 {
+    font-size: 1.5em;
+    color: #1d3557;
+    margin-bottom: 10px;
+  }
+  
+  /* Stat content */
+  .stat p {
+    font-size: 1.2em;
+    color: #4a4a4a;
+  }
+  
+  /* User Input Section for Playlist ID */
+.playlist-input {
+  margin-bottom: 20px;
+}
+
+#playlist-id {
+  padding: 10px;
+  font-size: 1em;
+  width: 300px;
+  margin-right: 10px;
+}
+
+#load-playlist {
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+/* Scrollable Track List */
+.track-list {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 30px;
+}
+
+#track-list-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+#track-list-container li {
+  font-size: 1.1em;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+}

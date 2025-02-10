@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hot 100 Playlist</title>
+  <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Billboard Hot 100 Playlist</h1>
+    <!-- User Input for Playlist ID -->
+    <div class="playlist-input">
+      <input type="text" id="playlist-id" placeholder="Enter Playlist ID" />
+      <button id="load-playlist">Load Playlist</button>
+    </div>
+
+    <!-- Scrollable List of Tracks -->
+    <div class="track-list">
+      <h2>Track List</h2>
+      <ul id="track-list-container"></ul>
+    </div>
+
+    <!-- Stats Section -->
+    <div class="stats">
+      <div class="stat">
+        <h2>Total Tracks</h2>
+        <p id="track-count">Loading...</p>
+      </div>
+      <div class="stat">
+        <h2>Most Popular Track</h2>
+        <p id="most-popular-track">Loading...</p>
+      </div>
+      <div class="stat">
+        <h2>Most Popular Artist</h2>
+        <p id="most-popular-artist">Loading...</p>
+      </div>
+      <div class="stat">
+        <h2>Artist with Most Tracks</h2>
+        <p id="most-tracks-artist">Loading...</p>
+      </div>
+      <div class="stat">
+        <h2>Track Popularity Range</h2>
+        <p id="popularity-range">Loading...</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="static/script.js"></script>
+</body>
+</html>
